@@ -1,0 +1,6 @@
+framework module Pods_Saturn_InterviewProj_THM {
+  umbrella header "Pods-Saturn_InterviewProj_THM-umbrella.h"
+
+  export *
+  module * { export * }
+}

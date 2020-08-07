@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59763C4224AFD11A000D59A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C4124AFD11A000D59A9 /* AppDelegate.swift */; };
+		59763C4424AFD11A000D59A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C4324AFD11A000D59A9 /* SceneDelegate.swift */; };
+		59763C4624AFD11A000D59A9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C4524AFD11A000D59A9 /* NotesViewController.swift */; };
+		59763C4B24AFD122000D59A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59763C4A24AFD122000D59A9 /* Assets.xcassets */; };
+		59763C4E24AFD122000D59A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59763C4C24AFD122000D59A9 /* LaunchScreen.storyboard */; };
+		59763C5924AFD122000D59A9 /* Saturn_InterviewProj_THMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C5824AFD122000D59A9 /* Saturn_InterviewProj_THMTests.swift */; };
+		59763C6424AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C6324AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.swift */; };
+		59763C7624B3ED39000D59A9 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C7524B3ED39000D59A9 /* NoteCell.swift */; };
+		59763C7824B50E35000D59A9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C7724B50E35000D59A9 /* NetworkService.swift */; };
+		59763C7A24B5D91A000D59A9 /* LocalNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C7924B5D91A000D59A9 /* LocalNote.swift */; };
+		59763C7C24B68FD2000D59A9 /* NoteConstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C7B24B68FD2000D59A9 /* NoteConstructionViewController.swift */; };
+		59763C7E24B734F3000D59A9 /* SaturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C7D24B734F3000D59A9 /* SaturnViewController.swift */; };
+		59763C8224B76072000D59A9 /* ApplyWIth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8124B76072000D59A9 /* ApplyWIth.swift */; };
+		59763C8524B76D1B000D59A9 /* NoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8424B76D1B000D59A9 /* NoteResponse.swift */; };
+		59763C8724B85EB9000D59A9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8624B85EB9000D59A9 /* ImagePicker.swift */; };
+		59763C8924B8AF02000D59A9 /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8824B8AF02000D59A9 /* ImageResponse.swift */; };
+		59763C8B24B8C3D3000D59A9 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8A24B8C3D3000D59A9 /* LocalService.swift */; };
+		59763C8D24B916C6000D59A9 /* DispatchQueue+Extensions.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59763C8C24B916C5000D59A9 /* DispatchQueue+Extensions.swift.swift */; };
+		59E392D824C548DA00C9DE1E /* SReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E392D724C548DA00C9DE1E /* SReachability.swift */; };
+		A97D4C5035E85C58B6FC999F /* Pods_Saturn_InterviewProj_THM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFDA324C9A29CBEDB31576D /* Pods_Saturn_InterviewProj_THM.framework */; };
+		BA24AA36C275B8CAB556FDF4 /* Pods_Saturn_InterviewProj_THMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057E9E8F76B4AAD7388A4897 /* Pods_Saturn_InterviewProj_THMTests.framework */; };
+		CA0DF7EC70A5396E0C201CE2 /* Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00F13B48624524D4CB626E /* Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59763C5524AFD122000D59A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59763C3624AFD11A000D59A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59763C3D24AFD11A000D59A9;
+			remoteInfo = Saturn_InterviewProj_THM;
+		};
+		59763C6024AFD122000D59A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59763C3624AFD11A000D59A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59763C3D24AFD11A000D59A9;
+			remoteInfo = Saturn_InterviewProj_THM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057E9E8F76B4AAD7388A4897 /* Pods_Saturn_InterviewProj_THMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saturn_InterviewProj_THMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B232CB27DFC6BF07DB5BB6 /* Pods-Saturn_InterviewProj_THM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THM.debug.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THM/Pods-Saturn_InterviewProj_THM.debug.xcconfig"; sourceTree = "<group>"; };
+		0EB02361D0A2727FC3075FCC /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.debug.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2775E6053A431348E05D1B6A /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.release.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A00F13B48624524D4CB626E /* Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFDA324C9A29CBEDB31576D /* Pods_Saturn_InterviewProj_THM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saturn_InterviewProj_THM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59763C3E24AFD11A000D59A9 /* Saturn+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saturn+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59763C4124AFD11A000D59A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59763C4324AFD11A000D59A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59763C4524AFD11A000D59A9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		59763C4A24AFD122000D59A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59763C4D24AFD122000D59A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59763C4F24AFD122000D59A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59763C5424AFD122000D59A9 /* Saturn_InterviewProj_THMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saturn_InterviewProj_THMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59763C5824AFD122000D59A9 /* Saturn_InterviewProj_THMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturn_InterviewProj_THMTests.swift; sourceTree = "<group>"; };
+		59763C5A24AFD122000D59A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59763C5F24AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saturn_InterviewProj_THMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59763C6324AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturn_InterviewProj_THMUITests.swift; sourceTree = "<group>"; };
+		59763C6524AFD122000D59A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59763C7524B3ED39000D59A9 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		59763C7724B50E35000D59A9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		59763C7924B5D91A000D59A9 /* LocalNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNote.swift; sourceTree = "<group>"; };
+		59763C7B24B68FD2000D59A9 /* NoteConstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteConstructionViewController.swift; sourceTree = "<group>"; };
+		59763C7D24B734F3000D59A9 /* SaturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnViewController.swift; sourceTree = "<group>"; };
+		59763C8124B76072000D59A9 /* ApplyWIth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyWIth.swift; sourceTree = "<group>"; };
+		59763C8424B76D1B000D59A9 /* NoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteResponse.swift; sourceTree = "<group>"; };
+		59763C8624B85EB9000D59A9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		59763C8824B8AF02000D59A9 /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
+		59763C8A24B8C3D3000D59A9 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		59763C8C24B916C5000D59A9 /* DispatchQueue+Extensions.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extensions.swift.swift"; sourceTree = "<group>"; };
+		59E392D724C548DA00C9DE1E /* SReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SReachability.swift; sourceTree = "<group>"; };
+		91C55A18D954CAD24A253381 /* Pods-Saturn_InterviewProj_THMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THMTests.debug.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THMTests/Pods-Saturn_InterviewProj_THMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A135A394DB96581F809184FD /* Pods-Saturn_InterviewProj_THMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THMTests.release.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THMTests/Pods-Saturn_InterviewProj_THMTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC9CE6263500CEC003DEB952 /* Pods-Saturn_InterviewProj_THM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saturn_InterviewProj_THM.release.xcconfig"; path = "Target Support Files/Pods-Saturn_InterviewProj_THM/Pods-Saturn_InterviewProj_THM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59763C3B24AFD11A000D59A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97D4C5035E85C58B6FC999F /* Pods_Saturn_InterviewProj_THM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5124AFD122000D59A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA24AA36C275B8CAB556FDF4 /* Pods_Saturn_InterviewProj_THMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5C24AFD122000D59A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0DF7EC70A5396E0C201CE2 /* Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45169A06F6F880D78BCE47B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDA324C9A29CBEDB31576D /* Pods_Saturn_InterviewProj_THM.framework */,
+				3A00F13B48624524D4CB626E /* Pods_Saturn_InterviewProj_THM_Saturn_InterviewProj_THMUITests.framework */,
+				057E9E8F76B4AAD7388A4897 /* Pods_Saturn_InterviewProj_THMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59763C3524AFD11A000D59A9 = {
+			isa = PBXGroup;
+			children = (
+				59763C4024AFD11A000D59A9 /* Saturn_InterviewProj_THM */,
+				59763C5724AFD122000D59A9 /* Saturn_InterviewProj_THMTests */,
+				59763C6224AFD122000D59A9 /* Saturn_InterviewProj_THMUITests */,
+				59763C3F24AFD11A000D59A9 /* Products */,
+				DD296ACEF5C49379EA031931 /* Pods */,
+				45169A06F6F880D78BCE47B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59763C3F24AFD11A000D59A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59763C3E24AFD11A000D59A9 /* Saturn+.app */,
+				59763C5424AFD122000D59A9 /* Saturn_InterviewProj_THMTests.xctest */,
+				59763C5F24AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59763C4024AFD11A000D59A9 /* Saturn_InterviewProj_THM */ = {
+			isa = PBXGroup;
+			children = (
+				59763C8324B76501000D59A9 /* Networks */,
+				59763C8024B7605F000D59A9 /* Support */,
+				59763C7F24B74EC4000D59A9 /* Model */,
+				59763C4124AFD11A000D59A9 /* AppDelegate.swift */,
+				59763C4324AFD11A000D59A9 /* SceneDelegate.swift */,
+				59763C4A24AFD122000D59A9 /* Assets.xcassets */,
+				59763C4C24AFD122000D59A9 /* LaunchScreen.storyboard */,
+				59763C4F24AFD122000D59A9 /* Info.plist */,
+				59763C7524B3ED39000D59A9 /* NoteCell.swift */,
+				59763C4524AFD11A000D59A9 /* NotesViewController.swift */,
+				59763C7B24B68FD2000D59A9 /* NoteConstructionViewController.swift */,
+				59763C7D24B734F3000D59A9 /* SaturnViewController.swift */,
+				59763C8624B85EB9000D59A9 /* ImagePicker.swift */,
+			);
+			path = Saturn_InterviewProj_THM;
+			sourceTree = "<group>";
+		};
+		59763C5724AFD122000D59A9 /* Saturn_InterviewProj_THMTests */ = {
+			isa = PBXGroup;
+			children = (
+				59763C5824AFD122000D59A9 /* Saturn_InterviewProj_THMTests.swift */,
+				59763C5A24AFD122000D59A9 /* Info.plist */,
+			);
+			path = Saturn_InterviewProj_THMTests;
+			sourceTree = "<group>";
+		};
+		59763C6224AFD122000D59A9 /* Saturn_InterviewProj_THMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59763C6324AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.swift */,
+				59763C6524AFD122000D59A9 /* Info.plist */,
+			);
+			path = Saturn_InterviewProj_THMUITests;
+			sourceTree = "<group>";
+		};
+		59763C7F24B74EC4000D59A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59763C7924B5D91A000D59A9 /* LocalNote.swift */,
+				59763C8424B76D1B000D59A9 /* NoteResponse.swift */,
+				59763C8824B8AF02000D59A9 /* ImageResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59763C8024B7605F000D59A9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				59763C8124B76072000D59A9 /* ApplyWIth.swift */,
+				59763C8C24B916C5000D59A9 /* DispatchQueue+Extensions.swift.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		59763C8324B76501000D59A9 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				59763C7724B50E35000D59A9 /* NetworkService.swift */,
+				59763C8A24B8C3D3000D59A9 /* LocalService.swift */,
+				59E392D724C548DA00C9DE1E /* SReachability.swift */,
+			);
+			name = Networks;
+			sourceTree = "<group>";
+		};
+		DD296ACEF5C49379EA031931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09B232CB27DFC6BF07DB5BB6 /* Pods-Saturn_InterviewProj_THM.debug.xcconfig */,
+				EC9CE6263500CEC003DEB952 /* Pods-Saturn_InterviewProj_THM.release.xcconfig */,
+				0EB02361D0A2727FC3075FCC /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.debug.xcconfig */,
+				2775E6053A431348E05D1B6A /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.release.xcconfig */,
+				91C55A18D954CAD24A253381 /* Pods-Saturn_InterviewProj_THMTests.debug.xcconfig */,
+				A135A394DB96581F809184FD /* Pods-Saturn_InterviewProj_THMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59763C3D24AFD11A000D59A9 /* Saturn_InterviewProj_THM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59763C6824AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THM" */;
+			buildPhases = (
+				CF5582A749742A39B9BB4CCB /* [CP] Check Pods Manifest.lock */,
+				59763C3A24AFD11A000D59A9 /* Sources */,
+				59763C3B24AFD11A000D59A9 /* Frameworks */,
+				59763C3C24AFD11A000D59A9 /* Resources */,
+				9B16054EBCD0041F3636B84B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saturn_InterviewProj_THM;
+			productName = Saturn_InterviewProj_THM;
+			productReference = 59763C3E24AFD11A000D59A9 /* Saturn+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59763C5324AFD122000D59A9 /* Saturn_InterviewProj_THMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59763C6B24AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THMTests" */;
+			buildPhases = (
+				54FD421344A333EA99F8CCA7 /* [CP] Check Pods Manifest.lock */,
+				59763C5024AFD122000D59A9 /* Sources */,
+				59763C5124AFD122000D59A9 /* Frameworks */,
+				59763C5224AFD122000D59A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59763C5624AFD122000D59A9 /* PBXTargetDependency */,
+			);
+			name = Saturn_InterviewProj_THMTests;
+			productName = Saturn_InterviewProj_THMTests;
+			productReference = 59763C5424AFD122000D59A9 /* Saturn_InterviewProj_THMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59763C5E24AFD122000D59A9 /* Saturn_InterviewProj_THMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59763C6E24AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THMUITests" */;
+			buildPhases = (
+				FD0D11EC2F1C7F883D17F1FF /* [CP] Check Pods Manifest.lock */,
+				59763C5B24AFD122000D59A9 /* Sources */,
+				59763C5C24AFD122000D59A9 /* Frameworks */,
+				59763C5D24AFD122000D59A9 /* Resources */,
+				89B627B88A5AEC34266C807F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59763C6124AFD122000D59A9 /* PBXTargetDependency */,
+			);
+			name = Saturn_InterviewProj_THMUITests;
+			productName = Saturn_InterviewProj_THMUITests;
+			productReference = 59763C5F24AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59763C3624AFD11A000D59A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Interview;
+				TargetAttributes = {
+					59763C3D24AFD11A000D59A9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					59763C5324AFD122000D59A9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 59763C3D24AFD11A000D59A9;
+					};
+					59763C5E24AFD122000D59A9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 59763C3D24AFD11A000D59A9;
+					};
+				};
+			};
+			buildConfigurationList = 59763C3924AFD11A000D59A9 /* Build configuration list for PBXProject "Saturn_InterviewProj_THM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59763C3524AFD11A000D59A9;
+			productRefGroup = 59763C3F24AFD11A000D59A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59763C3D24AFD11A000D59A9 /* Saturn_InterviewProj_THM */,
+				59763C5324AFD122000D59A9 /* Saturn_InterviewProj_THMTests */,
+				59763C5E24AFD122000D59A9 /* Saturn_InterviewProj_THMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59763C3C24AFD11A000D59A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59763C4E24AFD122000D59A9 /* LaunchScreen.storyboard in Resources */,
+				59763C4B24AFD122000D59A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5224AFD122000D59A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5D24AFD122000D59A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54FD421344A333EA99F8CCA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saturn_InterviewProj_THMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B627B88A5AEC34266C807F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B16054EBCD0041F3636B84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM/Pods-Saturn_InterviewProj_THM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM/Pods-Saturn_InterviewProj_THM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saturn_InterviewProj_THM/Pods-Saturn_InterviewProj_THM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5582A749742A39B9BB4CCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saturn_InterviewProj_THM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0D11EC2F1C7F883D17F1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59763C3A24AFD11A000D59A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59763C8B24B8C3D3000D59A9 /* LocalService.swift in Sources */,
+				59763C8924B8AF02000D59A9 /* ImageResponse.swift in Sources */,
+				59763C4624AFD11A000D59A9 /* NotesViewController.swift in Sources */,
+				59763C7C24B68FD2000D59A9 /* NoteConstructionViewController.swift in Sources */,
+				59763C7E24B734F3000D59A9 /* SaturnViewController.swift in Sources */,
+				59763C8524B76D1B000D59A9 /* NoteResponse.swift in Sources */,
+				59763C4224AFD11A000D59A9 /* AppDelegate.swift in Sources */,
+				59763C8224B76072000D59A9 /* ApplyWIth.swift in Sources */,
+				59763C8D24B916C6000D59A9 /* DispatchQueue+Extensions.swift.swift in Sources */,
+				59763C7A24B5D91A000D59A9 /* LocalNote.swift in Sources */,
+				59763C7624B3ED39000D59A9 /* NoteCell.swift in Sources */,
+				59E392D824C548DA00C9DE1E /* SReachability.swift in Sources */,
+				59763C8724B85EB9000D59A9 /* ImagePicker.swift in Sources */,
+				59763C4424AFD11A000D59A9 /* SceneDelegate.swift in Sources */,
+				59763C7824B50E35000D59A9 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5024AFD122000D59A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59763C5924AFD122000D59A9 /* Saturn_InterviewProj_THMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59763C5B24AFD122000D59A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59763C6424AFD122000D59A9 /* Saturn_InterviewProj_THMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59763C5624AFD122000D59A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59763C3D24AFD11A000D59A9 /* Saturn_InterviewProj_THM */;
+			targetProxy = 59763C5524AFD122000D59A9 /* PBXContainerItemProxy */;
+		};
+		59763C6124AFD122000D59A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59763C3D24AFD11A000D59A9 /* Saturn_InterviewProj_THM */;
+			targetProxy = 59763C6024AFD122000D59A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59763C4C24AFD122000D59A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59763C4D24AFD122000D59A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59763C6624AFD122000D59A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59763C6724AFD122000D59A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59763C6924AFD122000D59A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B232CB27DFC6BF07DB5BB6 /* Pods-Saturn_InterviewProj_THM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THM";
+				PRODUCT_NAME = "Saturn+";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59763C6A24AFD122000D59A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9CE6263500CEC003DEB952 /* Pods-Saturn_InterviewProj_THM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THM";
+				PRODUCT_NAME = "Saturn+";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59763C6C24AFD122000D59A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C55A18D954CAD24A253381 /* Pods-Saturn_InterviewProj_THMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saturn_InterviewProj_THM.app/Saturn_InterviewProj_THM";
+			};
+			name = Debug;
+		};
+		59763C6D24AFD122000D59A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A135A394DB96581F809184FD /* Pods-Saturn_InterviewProj_THMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saturn_InterviewProj_THM.app/Saturn_InterviewProj_THM";
+			};
+			name = Release;
+		};
+		59763C6F24AFD122000D59A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB02361D0A2727FC3075FCC /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saturn_InterviewProj_THM;
+			};
+			name = Debug;
+		};
+		59763C7024AFD122000D59A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2775E6053A431348E05D1B6A /* Pods-Saturn_InterviewProj_THM-Saturn_InterviewProj_THMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JM29VU9244;
+				INFOPLIST_FILE = Saturn_InterviewProj_THMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saturn.interview.suubmission.Saturn-InterviewProj-THMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Saturn_InterviewProj_THM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59763C3924AFD11A000D59A9 /* Build configuration list for PBXProject "Saturn_InterviewProj_THM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59763C6624AFD122000D59A9 /* Debug */,
+				59763C6724AFD122000D59A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59763C6824AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59763C6924AFD122000D59A9 /* Debug */,
+				59763C6A24AFD122000D59A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59763C6B24AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59763C6C24AFD122000D59A9 /* Debug */,
+				59763C6D24AFD122000D59A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59763C6E24AFD122000D59A9 /* Build configuration list for PBXNativeTarget "Saturn_InterviewProj_THMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59763C6F24AFD122000D59A9 /* Debug */,
+				59763C7024AFD122000D59A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59763C3624AFD11A000D59A9 /* Project object */;
+}
